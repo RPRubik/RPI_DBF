@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RPI DBF | Engineering Subteams</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-bg">
+    
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="RPI DBF Logo" class="nav-logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="aircraft.html">Aircraft</a></li>
+                <li class="dropdown">
+                    <a href="about.html" class="dropbtn">About <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="eboard.html">Executive Board</a>
+                        <a href="subteams.html">Engineering Subteams</a>
+                    </div>
+                </li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="sponsors.html" class="btn-nav">Donate</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section page-header">
+        <div class="container">
+            <h2 class="text-center">Engineering Subteams</h2>
+            <div class="divider text-center"></div>
+            
+            <div style="margin-top: 60px;">
+                
+                <div class="subteam-row">
+                    <div class="subteam-image">
+                        [ Insert CFD / Wind Tunnel Photo ]
+                    </div>
+                    <div class="subteam-text">
+                        <h3><i class="fas fa-wind"></i> Aerodynamics</h3>
+                        <p>The Aerodynamics subteam is responsible for airfoil selection, outer mold line definition, and comprehensive stability analysis. Utilizing industry-standard software such as <strong>XFLR5</strong>, <strong>Simcenter STAR-CCM+</strong>, and <strong>MATLAB</strong>, we predict flight envelopes and validate our models through rigorous $1/4$ scale wind tunnel testing in the RPI subsonic wind tunnel.</p>
+                    </div>
+                </div>
+
+                <div class="subteam-row">
+                    <div class="subteam-text">
+                        <h3><i class="fas fa-cubes"></i> Structures</h3>
+                        <p>Our Structures team engineers the wing, fuselage, and empennage to withstand rigorous flight loads of up to 8g. We design exclusively in <strong>SolidWorks</strong> and validate our load paths using <strong>Simcenter NASTRAN FEA</strong>. We specialize in balancing advanced carbon fiber monocoque designs with lightweight, semi-monocoque wood build-ups to maximize our competition score.</p>
+                    </div>
+                    <div class="subteam-image">
+                        [ Insert FEA Render or Airframe Photo ]
+                    </div>
+                </div>
+
+                <div class="subteam-row">
+                    <div class="subteam-image">
+                        [ Insert Motor / Powertrain Photo ]
+                    </div>
+                    <div class="subteam-text">
+                        <h3><i class="fas fa-bolt"></i> Propulsion</h3>
+                        <p>The heartbeat of the aircraft. The Propulsion team selects and tests motors, propellers, and avionics to maximize thrust and endurance within competition power limits. We utilize <strong>eCalc</strong> software and our own in-house dynamic thrust testing rigs to optimize our electric propulsion systems and integrate complex flight telemetry.</p>
+                    </div>
+                </div>
+
+                <div class="subteam-row">
+                    <div class="subteam-text">
+                        <h3><i class="fas fa-cogs"></i> Subsystems</h3>
+                        <p>Subsystems focuses purely on mission-specific mechanisms. Because the AIAA DBF missions change every year, this team must be highly adaptable. For the 2026 competition, their work focuses heavily on designing rapid-release, servo-actuated payload hatches and the highly complex deployable 190" banner stowage and release system.</p>
+                    </div>
+                    <div class="subteam-image">
+                        [ Insert Mechanism CAD or Testing Photo ]
+                    </div>
+                </div>
+
+                <div class="subteam-row">
+                    <div class="subteam-image">
+                        [ Insert Lab / Manufacturing Photo ]
+                    </div>
+                    <div class="subteam-text">
+                        <h3><i class="fas fa-tools"></i> Manufacturing</h3>
+                        <p>The Manufacturing team translates digital CAD into physical aircraft. Operating out of our dedicated lab space, we specialize in advanced composite fabrication, including <strong>Vacuum Assisted Resin Transfer Method (VARTM)</strong> carbon fiber layups. We also heavily utilize PA6-CF additive manufacturing (3D printing), precision laser-cutting, and UltraCote heat shrink film application.</p>
+                    </div>
+                </div>
+
+                <div class="subteam-row">
+                    <div class="subteam-text">
+                        <h3><i class="fas fa-file-alt"></i> Documentation</h3>
+                        <p>A great aircraft cannot win without a great engineering report. The Documentation team ensures rigorous technical recording of all engineering processes and design decisions throughout the year. We utilize <strong>LaTeX</strong> typesetting and professional technical writing standards to compile our comprehensive, highly-scored AIAA design reports.</p>
+                    </div>
+                    <div class="subteam-image">
+                        [ Insert Team Meeting / Report Photo ]
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="text-align:center; padding: 20px;">&copy; 2026 RPI DBF.</p>
+    </footer>
+</body>
+</html>
