@@ -413,10 +413,10 @@ h2 { font-size: 2.8rem; margin-bottom: 10px; }
 /* New layout rules for the team photo */
 .alumni-team-photo {
     width: 100%;
-    height: 400px;
+    height: 100%;
     background: #111;
     border-radius: 8px;
-    overflow: hidden;
+    overflow: hide;
     margin-bottom: 30px;
     border: 1px solid #333;
     box-shadow: 0 5px 15px rgba(0,0,0,0.4);
