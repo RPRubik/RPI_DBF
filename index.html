@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>RPI DBF | Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css"> 
 </head>
@@ -12,10 +12,17 @@
     <nav id="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">
-                <img src="logo.png" alt="RPI DBF Logo" class="nav-logo-img">
+                <img src="Photos/logo.png" alt="RPI DBF Logo" class="nav-logo-img">
+                <span class="logo-text">RPI DBF</span>
             </a>
             <ul class="nav-links">
-                <li><a href="aircraft.html">Aircraft</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">History <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="history.html">Aircraft</a>
+                        <a href="alumni.html">Alumni</a>
+                    </div>
+                </li>
                 <li class="dropdown">
                     <a href="about.html" class="dropbtn">About <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
@@ -24,38 +31,126 @@
                     </div>
                 </li>
                 <li><a href="sponsors.html">Sponsors</a></li>
-                <li><a href="sponsors.html" class="btn-nav">Donate</a></li>
+                <li><a href="join.html" class="btn-nav">Join!</a></li>
             </ul>
         </div>
     </nav>
 
     <section class="hero">
         <div class="hero-content">
-            <h2 class="title-massive">KOI</h2>
-            <p class="subtitle">The 2025-2026 RPI DBF Charter & Banner-Towing Bush Plane.</p>
-            
-            <div class="tech-callouts">
-                <div class="callout"><i class="fas fa-plane"></i> 60-inch Rectangular Wing</div>
-                <div class="callout"><i class="fas fa-flag"></i> 190" Deployable Banner System</div>
-                <div class="callout"><i class="fas fa-tachometer-alt"></i> Single-Tractor Propulsion</div>
-                <div class="callout"><i class="fas fa-weight-hanging"></i> Carbon Fiber Monocoque</div>
+            <h2 class="title-massive">RPI DESIGN BUILD FLY</h2>
+            <div class="action-buttons" style="margin-top: 30px;">
+                <a href="#about-us" class="btn btn-solid-red">Learn More</a>
+                <a href="sponsors.html" class="btn btn-outline" style="color: white; border-color: white;">Sponsor Us</a>
             </div>
         </div>
     </section>
 
-    <footer>
-        <div class="footer-container">
-            <div class="footer-info">
-                <h3>RPI Design/Build/Fly</h3>
-                <p>Department of Mechanical, Aerospace, and Nuclear Engineering</p>
-                <p>Troy, NY 12180</p>
+    <section id="about-us" class="section">
+        <div class="container text-center">
+            <h2>About Us</h2>
+            <div class="divider"></div>
+            
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; max-width: 1100px; margin: 0 auto 40px auto; text-align: left;">
+                
+                <div style="flex: 1; min-width: 300px; color: #bbbbbb; font-size: 1.15rem; line-height: 1.8;">
+                    <p style="margin-bottom: 20px;">
+                        Design Build Fly (DBF) is an international aircraft design competition in which student teams from universities across the world design, build, and fly a remote controlled aircraft. Each year the American Institute for Aeronautics and Astronautics (AIAA) presents a new design challenge requiring the design of a completely new aircraft. The competition is designed to provide college students with engineering project experience similar to the challenges they will experience in the workforce. Many alumni from RPI DBF now work at major aerospace companies such as Boeing, Lockheed Martin, Raytheon, and Northrop Grumman. You can find out more about the competition at the <a href="https://www.aiaadbf.org/" target="_blank" style="text-decoration: underline; font-weight: 600;">Design Build Fly website</a>.
+                    </p>
+                    <p style="margin-bottom: 20px;">
+                        RPI DBF is as an extra-curricular activity that meets twice per week in the design phase and as often as possible during the build and test phases. The team made its first appearance at the 2008 competition and entered the Top 3 with a 3rd place finish in the 2013 competition. More recently, the team has seen continued success, placing 11th in 2024, 5th in 2025, and 6th in the 2026 competition.
+                    </p>
+                </div>
+
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="Photos/team_photo.jpg" alt="About RPI DBF" onerror="this.src='https://via.placeholder.com/600x400/111111/555555?text=Team+Photo'" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                </div>
+
             </div>
-            <div class="footer-socials">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+            <div class="action-buttons">
+                <a href="join.html" class="btn btn-solid-red">Join Our Team</a>
             </div>
         </div>
-        <p style="text-align:center; padding-top: 20px; color: #555; font-size: 0.9rem;">&copy; 2026 RPI DBF.</p>
+    </section>
+
+    <section class="section" style="background-color: var(--dark-bg);">
+        <div class="container text-center">
+            <h2>Our 2026 Aircraft: Koi</h2>
+            <div class="divider"></div>
+            <div class="model-placeholder" style="margin: 40px auto; max-width: 800px; height: 400px; background: #111; border: 2px solid #444; display: flex; align-items: center; justify-content: center; color: #777;">
+                [3D Model Viewer Placeholder]
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container text-center">
+            <h2>Our Sponsors</h2>
+            <div class="divider"></div>
+            <p style="color: #bbbbbb; margin-bottom: 40px; font-size: 1.15rem;">
+                A special thank you to the partners who make our research, design, and manufacturing possible.
+            </p>
+            
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; margin-top: 30px;">
+                
+                <a href="https://eng.rpi.edu/" class="sponsor-card" target="_blank">
+                    <img src="Photos/rpi_eng.png" alt="Rensselaer School of Engineering">
+                </a>
+                
+                <a href="https://mane.rpi.edu/" class="sponsor-card" target="_blank">
+                    <img src="Photos/rpi_mane.png" alt="Rensselaer MANE">
+                </a>
+                
+                <a href="https://www.boeing.com/" class="sponsor-card" target="_blank">
+                    <img src="Photos/boeing.png" alt="The Boeing Company">
+                </a>
+                
+                <a href="https://www.rtx.com/" class="sponsor-card" target="_blank">
+                    <img src="Photos/rtx.png" alt="RTX Corporation">
+                </a>
+
+                <a href="https://www.solidworks.com/" class="sponsor-card" target="_blank">
+                    <img src="Photos/solidworks.png" alt="SolidWorks">
+                </a>
+
+                <div class="sponsor-card" style="flex-direction: column; color: #333; cursor: default;">
+                    <i class="fas fa-hand-holding-heart" style="font-size: 2.5rem; margin-bottom: 5px; color: var(--rpi-red);"></i>
+                    <span style="font-weight: 900; font-family: var(--font-heading); text-transform: uppercase;">Private Donors</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="footer-container">
+            
+            <div class="footer-col footer-logo">
+                <img src="Photos/rpi_dbf.png" alt="RPI DBF Logo">
+            </div>
+
+            <div class="footer-col footer-social">
+                <div class="social-links">
+                    <a href="https://www.instagram.com/rpidbf/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rpidbf/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://discord.gg/5B7aFgTnV7" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col footer-contact">
+                <h4>Contacts</h4>
+                <p>Organization:<br>
+                <a href="mailto:rpidbf@gmail.com">rpidbf@gmail.com</a></p>
+            </div>
+
+            <div class="footer-col footer-location">
+                <h4>Location</h4>
+                <p>Second Floor Rickets<br>
+                Rensselaer Polytechnic Institute</p>
+            </div>
+
+        </div>
     </footer>
+
 </body>
 </html>
