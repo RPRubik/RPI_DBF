@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>RPI DBF | Alumni & Teams</title>
+    <title>RPI DBF | Alumni</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css"> 
@@ -16,18 +16,26 @@
                 <span class="logo-text">RPI DBF</span>
             </a>
             <ul class="nav-links">
+                <!-- History on the left with Reports added -->
                 <li class="dropdown">
-                    <a href="#" class="dropbtn" style="color: var(--rpi-red);">History <i class="fas fa-caret-down"></i></a>
+                    <a href="#" class="dropbtn">History <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
                         <a href="history.html">Aircraft</a>
-                        <a href="alumni.html" style="color: var(--rpi-red) !important;">Alumni</a>
+                        <a href="reports.html">Reports</a>
+                        <a href="alumni.html">Alumni</a>
                     </div>
                 </li>
+                <!-- Engr Teams in the middle -->
                 <li class="dropdown">
-                    <a href="about.html" class="dropbtn">About <i class="fas fa-caret-down"></i></a>
+                    <a href="subteams.html" class="dropbtn">Engr Teams <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
-                        <a href="subteams.html">Engineering Subteams</a> 
-                        <a href="eboard.html">Executive Board</a>
+                        <a href="subteams.html">Aerodynamics</a>
+                        <a href="subteams.html">Structures</a>
+                        <a href="subteams.html">Manufacturing</a>
+                        <a href="subteams.html">Subsystems</a>
+                        <a href="subteams.html">Special Projects</a>
+                        <a href="subteams.html">Propulsions</a>
+                        <a href="subteams.html">Testing</a>
                     </div>
                 </li>
                 <li><a href="sponsors.html">Sponsors</a></li>
@@ -38,251 +46,304 @@
 
     <section class="page-header" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('Photos/M3_Flight.jpg') no-repeat center center / cover;">
         <div class="container text-center">
-            <h1 style="font-size: 4rem; text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8); margin-bottom: 10px;">Our Alumni</h1>
-            <p style="font-size: 1.3rem; color: #dddddd; max-width: 600px; margin: 0 auto;">The engineers, leaders, and builders who shaped our legacy.</p>
+            <h1 style="font-size: 4rem; text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8); margin-bottom: 10px;">Alumni List</h1>
+            <p style="font-size: 1.15rem; color: #dddddd; max-width: 800px; margin: 0 auto; line-height: 1.8;">
+                RPI DBF is proud to recognize our alumni, many of whom have gone on to work in the aerospace industry and apply the skills their time in the team has given them. Below is a (non-exhaustive) list of our alumni along with their graduation years and current employers. Please contact <a href="mailto:rpidbf@gmail.com" style="color: var(--rpi-red); font-weight: bold;">rpidbf@gmail.com</a> if you would like your information to be added/updated, or if there are other concerns.
+            </p>
         </div>
     </section>
 
     <section class="section">
         <div class="container">
             
-            <div class="alumni-card">
-                <h2 class="alumni-year">2025-2026: Koi</h2>
-                
-                <div class="alumni-team-photo">
-                    <img src="Photos/2026_admin.jpg" alt="2025-2026 Team">
-                </div>
-
-                <div class="alumni-grid">
-                    <div>
-                        <div class="alumni-role">Chief Engineer</div>
-                        <div class="alumni-names">Elliott Putnam</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Propulsions</div>
-                        <div class="alumni-names">Alex Kraus, James Zeolla</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Structures</div>
-                        <div class="alumni-names">Kyota Harrington, Ralffy Alejo, Tia Pignetti, Austin Xu</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Aerodynamics</div>
-                        <div class="alumni-names">Joy Xiao</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Subsystems</div>
-                        <div class="alumni-names">Evan Chan</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Manufacturing</div>
-                        <div class="alumni-names">Annabelle Krueger, Ibrahim Abdelrasoul</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Report</div>
-                        <div class="alumni-names">Jose Espinoza, Sherry Wang</div>
-                    </div>
+            <div class="alumni-card" style="padding: 20px 40px;">
+                <h2 class="alumni-year">Industry Alumni</h2>
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; text-align: left; color: #bbbbbb; font-size: 0.95rem;">
+                        <thead>
+                            <tr style="border-bottom: 2px solid var(--rpi-red); color: var(--text-light);">
+                                <th style="padding: 12px 15px; font-family: var(--font-heading); text-transform: uppercase;">Name & Role</th>
+                                <th style="padding: 12px 15px; font-family: var(--font-heading); text-transform: uppercase;">Degrees & Year</th>
+                                <th style="padding: 12px 15px; font-family: var(--font-heading); text-transform: uppercase;">Current Employment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Kenny Xu</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Data Collection Lead ‘26, Photographer</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aerospace Engineering, Mechanical Engineering, 2026</td>
+                                <td style="padding: 12px 15px;">M.Eng. Candidate at Georgia Institute of Technology</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Diego Hererra</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Structural Analysis Lead ‘25</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aerospace Engineering, 2026</td>
+                                <td style="padding: 12px 15px;">Structural Analysis Engineer at Spirit Aerosystems</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Kyota Harrington</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Structural Design Lead ‘26, ‘25</span></td>
+                                <td style="padding: 12px 15px;">B.S. Mechanical Engineering, Aeronautical Engineering, 2026</td>
+                                <td style="padding: 12px 15px;">Stress Analysis Engineer at Boeing Commercial Airplanes</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Sammy Nassau</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Optimization Lead ‘26, Report Lead ‘25</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2025<br>M.E. Aeronautical Engineering, 2026</td>
+                                <td style="padding: 12px 15px;">Aerodynamic Performance Engineer at General Atomics</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Matthew Ireland</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer ‘25</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, Mechanical Engineering, 2025<br>M.E. Aeronautical Engineering, 2026</td>
+                                <td style="padding: 12px 15px;">Manufacturing Engineer at Beta Technologies</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">James Zeolla</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead ‘25, Pilot</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2025<br>Master’s in Business Administration, 2026</td>
+                                <td style="padding: 12px 15px;">Associate Mechanical Engineer at Schindler Elevator Corporation</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Robert Quevedo</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Stability/Control Lead ‘25, Aerodynamics ‘24, '23</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aerospace Engineering, 2025</td>
+                                <td style="padding: 12px 15px;">Guidance, Navigation and Control Systems Engineer at Raytheon</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Katie August</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Structural Analysis '24, President '23</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2025</td>
+                                <td style="padding: 12px 15px;">Mechanical Engineer at kW Mission Critical Engineering</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Ahmed Sabir</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '24, '23</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2024</td>
+                                <td style="padding: 12px 15px;">Structural and Thermal Analyst at Textron Aviation</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">John Ward</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Project Manager '24, Propulsions Lead '23</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2024</td>
+                                <td style="padding: 12px 15px;">Mechanical Engineer at Parker Aerospace</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Robert Shen</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Structural Analysis Lead '23</span></td>
+                                <td style="padding: 12px 15px;">B.S. Mechanical Engineering, 2023</td>
+                                <td style="padding: 12px 15px;">737 MAX Reliability Engineer at Boeing Commercial Airplanes</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Paul Demers</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '23</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2023</td>
+                                <td style="padding: 12px 15px;">Technical Writer and Research Specialist at NEMO|etc.</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Jolene Pyronneau</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Aerodynamics Lead '22</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2022<br>M.E. Aeronautical Engineering, 2023</td>
+                                <td style="padding: 12px 15px;">Environmental Test Engineer at Boeing Defense, Space, and Security</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Sonu Chadalavada</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Structural Design Lead '22</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2022<br>M.E. Aeronautical Engineering, 2023</td>
+                                <td style="padding: 12px 15px;">777X Structural Design Engineer at Boeing Commercial Airplanes</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Henry Rodriguez</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '22</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2022<br>M.E. Aeronautical Engineering, 2023</td>
+                                <td style="padding: 12px 15px;">Senior Associate Mechanical Engineer at L3Harris</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Takeshi Morizono</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '22</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, Mechanical Engineering 2022</td>
+                                <td style="padding: 12px 15px;">Staff Engineer at Johns Hopkins University - Applied Physics Laboratory</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Luke Schimmel</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Subsystems Lead '22</span></td>
+                                <td style="padding: 12px 15px;">B.S. Mechanical Engineering, 2022</td>
+                                <td style="padding: 12px 15px;">Product Designer Engineer at Apple</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Vincent Flores-April</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '21, Pilot</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2021<br>M.E. Aeronautical Engineering, 2022</td>
+                                <td style="padding: 12px 15px;">Mechanical Design Engineer at Boeing Defense, Space, and Security</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Seth Zager</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '21</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2021<br>M.E. Aeronautical Engineering, 2022</td>
+                                <td style="padding: 12px 15px;">Structural Analysis Engineer at Quartus Engineering</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Daisuke Saito</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Structural Design Lead '21</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2021</td>
+                                <td style="padding: 12px 15px;">Flight Data Analyst at AgustaWestland Philadelphia Corporation</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Siddharth Suri</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '21</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2020<br>M.S. Computer Engineering, 2021</td>
+                                <td style="padding: 12px 15px;">Principal Engineer at Rotor Technologies</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">John Parks</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '20</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2020<br>M.S. Aeronautical Engineering, 2022</td>
+                                <td style="padding: 12px 15px;">Aerospace Engineer at Air Force Research Lab</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Joe McCauley</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Aerodynamics Lead '20</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2020<br>M.E. Aeronautical Engineering, 2021</td>
+                                <td style="padding: 12px 15px;">Computational Fluid Dynamics Analyst at ATA Engineering</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Christian Canham</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '19</span></td>
+                                <td style="padding: 12px 15px;">B.S. Electrical Engineering, 2018<br>M.S. Electrical Engineering, 2019</td>
+                                <td style="padding: 12px 15px;">Analog/Mixed Signal IC Design Engineer at Boeing Research & Technology</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Philip Casey</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '19</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2019<br>M.E. Aerospace Engineering, University of Washington, 2024</td>
+                                <td style="padding: 12px 15px;">Aero Stability and Control Engineer at Boeing Commercial Airplanes</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Michael Franta</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '19, '18</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2019<br>M.S. Aeronautical Engineering, 2020</td>
+                                <td style="padding: 12px 15px;">Structural Dynamics Engineer at United Launch Alliance</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Asiah Reynolds</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Aerodynamics Lead '18</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2018<br>M.S. Aeronautical Engineering, 2019</td>
+                                <td style="padding: 12px 15px;">Aerodynamics Performance Engineer at Boeing Commercial Airplanes</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Kenneth Varghese</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Report Lead '17</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2017<br>Master’s in Business Administration, Drexel University</td>
+                                <td style="padding: 12px 15px;">Senior Structural Engineer at Pratt and Whitney</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Stefan Hunkler</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '18</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2017</td>
+                                <td style="padding: 12px 15px;">Lead Acoustics Engineer at Boeing Commercial Airplanes</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Stanley Wong</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '17</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2017</td>
+                                <td style="padding: 12px 15px;">Senior Guidance Navigation and Control Engineer at Lockheed Martin</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Jake Parkhouse</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Aerodynamics Lead '17</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2017</td>
+                                <td style="padding: 12px 15px;">Mechanical Engineer at General Dynamics Electric Boat</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Annika Lindstrom Haughey</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Subsystems Lead '16</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2017<br>M.S. Aeronautical Engineering, 2018</td>
+                                <td style="padding: 12px 15px;">Mechanical Engineering PhD Candidate at Duke University</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Zachary Smith</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '16</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2016<br>M.S. Aerospace Engineering, 2018, University of Maryland</td>
+                                <td style="padding: 12px 15px;">Senior Airworthiness Engineer at Naval Air Systems Command</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Patrick Coleman</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '16</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2016</td>
+                                <td style="padding: 12px 15px;">Flight Deck Engineer at Boeing Commercial Airplanes</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Logan Whelan</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Aerodynamics Lead '15</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2016</td>
+                                <td style="padding: 12px 15px;">Principal Machine Learning Engineer at Pratt and Whitney</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Daniel Serino</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '15</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2015<br>M.S. Applied Mathematics, 2017<br>PhD, Mathematics, 2019</td>
+                                <td style="padding: 12px 15px;">Computational Scientist at Los Alamos National Laboratory</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Brandon Smail</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '15</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2015<br>M.S. Aerospace Engineering, 2018, Purdue University</td>
+                                <td style="padding: 12px 15px;">Systems Engineer at Northrop Grumman</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Colin Lenhoff</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Structural Design Lead '14</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, Mechanical Engineering, 2015</td>
+                                <td style="padding: 12px 15px;">Senior Design Engineer at Oasis Materials Company LP</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">John Bartlett</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '14</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, Mechanical Engineering, 2014<br>M.E. Aerospace Engineering, 2015, University of Washington</td>
+                                <td style="padding: 12px 15px;">Flight Sciences Engineer at Boeing Commercial Airplanes</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Albert Le</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Aerodynamics Lead '14</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2014<br>M.E. Aerospace Engineering, University of Washington</td>
+                                <td style="padding: 12px 15px;">Systems Engineer & Qualification Lead at Sandia National Laboratories</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Kevin Housley</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '14</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, Mechanical Engineering, 2014<br>PhD, Aeronautical Engineering, 2020</td>
+                                <td style="padding: 12px 15px;">Lecturer at Rensselaer Polytechnic Institute</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Peter Finigan</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Structural Design Lead '13</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2014</td>
+                                <td style="padding: 12px 15px;">Lead Generator Stator Mechanical Design Engineer at GE Power & Water</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Mike Tuccio</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '14</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2014<br>M.S. Aerospace Engineering, 2019, Purdue University</td>
+                                <td style="padding: 12px 15px;">Test Planning Engineering Lead at Relativity Space</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Andrew Trovato</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '14</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2014</td>
+                                <td style="padding: 12px 15px;">Senior Project Engineer at Regeneron</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Dan Finigan</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Report Lead, '10</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2010<br>M.S. Aeronautical Engineering, 2011</td>
+                                <td style="padding: 12px 15px;">Senior Vehicle Engineer at SpaceX</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Michael Beyar</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '11</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2011<br>M.E. Aeronautical Engineering, 2013</td>
+                                <td style="padding: 12px 15px;">Staff Aerodynamics Engineer at Tesla</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Andrew Weddle</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '12</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2010<br>M.S. Aeronautical Engineering, 2012</td>
+                                <td style="padding: 12px 15px;">Senior Aerodynamics Engineer at Virgin Galactic</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Daniel Falkenstrom</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Manufacturing Lead, '10</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2010</td>
+                                <td style="padding: 12px 15px;">Operations Director at Tech Valley Center of Gravity</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Peter Allen</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '10</span></td>
+                                <td style="padding: 12px 15px;">B.S Aeronautical Engineering, 2010</td>
+                                <td style="padding: 12px 15px;">Aeromechanical Engineer at AeroVironment</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Christos Adamopoulos</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Propulsions Lead '11</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2010<br>M.E. Aeronautical Engineering, 2018</td>
+                                <td style="padding: 12px 15px;">Senior Principal Aerothermal Engineer at Pratt and Whitney</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Michael Buttigieg</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">CAD Lead, '09</span></td>
+                                <td style="padding: 12px 15px;">B.S. Mechanical Engineering, 2009</td>
+                                <td style="padding: 12px 15px;">Senior Mechanical Engineer at Voyager Technologies</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Jenna Reynolds</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Report Lead '09</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2009</td>
+                                <td style="padding: 12px 15px;">Design Engineer at Saint-Gobain Performance Plastics</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Michael Shaw</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Aerodynamics Lead '08</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, Mechanical Engineering, 2008<br>M.S. Mechanical Engineering, 2013, Villanova University</td>
+                                <td style="padding: 12px 15px;">Senior Dynamic Systems Design Manager at Supernal</td>
+                            </tr>
+                            <tr style="border-bottom: none;">
+                                <td style="padding: 12px 15px;"><strong style="color: var(--text-light);">Philip Bracken</strong><br><span style="font-size: 0.85rem; color: var(--rpi-red);">Chief Engineer '08</span></td>
+                                <td style="padding: 12px 15px;">B.S. Aeronautical Engineering, 2008<br>M.S. Aerospace Engineering, 2015, Virginia Polytechnic Institute and State University<br>M.S. Aerospace Engineering, 2016, Purdue University</td>
+                                <td style="padding: 12px 15px;">Chief Technology Officer at Quantum Space</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
-            <div class="alumni-card">
-                <h2 class="alumni-year">2024-2025: Juggernaut</h2>
-                
-                <div class="alumni-team-photo">
-                    <img src="https://via.placeholder.com/1200x500/111111/555555?text=2024-2025+Team+Photo" alt="2024-2025 Team">
-                </div>
-
-                <div class="alumni-grid">
-                    <div>
-                        <div class="alumni-role">Chief Engineer</div>
-                        <div class="alumni-names">Matt Ireland</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Propulsions</div>
-                        <div class="alumni-names">Alex Kraus</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Structures</div>
-                        <div class="alumni-names">Kyota Harrington, Diego Hererra</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Aerodynamics</div>
-                        <div class="alumni-names">Elliott Putnam</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Subsystems</div>
-                        <div class="alumni-names">Nathan He, Max Slavik</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Manufacturing</div>
-                        <div class="alumni-names">Sherry Wang, Cole Anderson</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Report</div>
-                        <div class="alumni-names">Sammy Nassau</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="alumni-card">
-                <h2 class="alumni-year">2023-2024: Rensselaerjet</h2>
-                
-                <div class="alumni-team-photo">
-                    <img src="https://via.placeholder.com/1200x500/111111/555555?text=2023-2024+Team+Photo" alt="2023-2024 Team">
-                </div>
-
-                <div class="alumni-grid">
-                    <div>
-                        <div class="alumni-role">Chief Engineer</div>
-                        <div class="alumni-names">Ahmed Sabir</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Propulsions</div>
-                        <div class="alumni-names">Alexis Hernandez</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Structures</div>
-                        <div class="alumni-names">Matt Ireland, Katie August</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Aerodynamics</div>
-                        <div class="alumni-names">Robert Quevedo</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Subsystems</div>
-                        <div class="alumni-names">Kyota Harrington</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Manufacturing</div>
-                        <div class="alumni-names">Elliott Putnam</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Report</div>
-                        <div class="alumni-names">Sammy Nassau, Preston Lee</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="alumni-card">
-                <h2 class="alumni-year">2012-2013</h2>
-                
-                <div class="alumni-team-photo">
-                    <img src="https://via.placeholder.com/1200x500/111111/555555?text=2012-2013+Team+Photo" alt="2012-2013 Team">
-                </div>
-
-                <div class="alumni-grid">
-                    <div>
-                        <div class="alumni-role">President</div>
-                        <div class="alumni-names">Colin Lenhoff</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Vice-President</div>
-                        <div class="alumni-names">Albert Le</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Chief Engineer</div>
-                        <div class="alumni-names">Jeff Mockelman</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Senior Engineers</div>
-                        <div class="alumni-names">Mike Tuccio, Jeremy Styborski, Peter Finigan</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Secretary</div>
-                        <div class="alumni-names">Andrew Trovato</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Treasurer</div>
-                        <div class="alumni-names">Kevin Housley</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="alumni-card">
-                <h2 class="alumni-year">2011-2012</h2>
-
-                <div class="alumni-team-photo">
-                    <img src="https://via.placeholder.com/1200x500/111111/555555?text=2011-2012+Team+Photo" alt="2011-2012 Team">
-                </div>
-
-                <div class="alumni-grid">
-                    <div>
-                        <div class="alumni-role">President</div>
-                        <div class="alumni-names">Hannah Sheldon</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Vice-President</div>
-                        <div class="alumni-names">Michael Tuccio</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Chief Engineer</div>
-                        <div class="alumni-names">Andrew Weddle</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Senior Engineers</div>
-                        <div class="alumni-names">Ian Curtis, Jay Monahan, Neil Froschauer</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Secretary</div>
-                        <div class="alumni-names">Peter Finigan</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Treasurer</div>
-                        <div class="alumni-names">Jeff Mockelman</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="alumni-card">
-                <h2 class="alumni-year">2010-2011</h2>
-
-                <div class="alumni-team-photo">
-                    <img src="https://via.placeholder.com/1200x500/111111/555555?text=2010-2011+Team+Photo" alt="2010-2011 Team">
-                </div>
-
-                <div class="alumni-grid">
-                    <div>
-                        <div class="alumni-role">President</div>
-                        <div class="alumni-names">Ian Curtis</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Vice-President</div>
-                        <div class="alumni-names">Neil Froschauer</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Chief Engineers</div>
-                        <div class="alumni-names">Michael Beyar, Andrew Weddle</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Senior Engineers</div>
-                        <div class="alumni-names">Christos Adamopoulos, Daniel Finigan, Heather Kline, Helen Mooney</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Secretary</div>
-                        <div class="alumni-names">Hannah Sheldon</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="alumni-card">
-                <h2 class="alumni-year">2009-2010</h2>
-
-                <div class="alumni-team-photo">
-                    <img src="https://via.placeholder.com/1200x500/111111/555555?text=2009-2010+Team+Photo" alt="2009-2010 Team">
-                </div>
-
-                <div class="alumni-grid">
-                    <div>
-                        <div class="alumni-role">Presidents</div>
-                        <div class="alumni-names">Michael Beyar, Sean Michnowski (Fall Semester)</div>
-                    </div>
-                    <div>
-                        <div class="alumni-role">Engineering Board</div>
-                        <div class="alumni-names">Peter Allen, Daniel Finigan, Helen Mooney</div>
-                    </div>
-                </div>
-            </div>
-
+            
         </div>
     </section>
 
