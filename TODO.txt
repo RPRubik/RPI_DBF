@@ -1,0 +1,4 @@
+1. Fix the join button 
+2. Add no expirience needed to the join page
+3. add more photos to the sub teams page
+4. Maybe remove all the sub-teams from dropdown in header

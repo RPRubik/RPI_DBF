@@ -59,19 +59,28 @@
             <h2>About Us</h2>
             <div class="divider"></div>
             
-            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; max-width: 1100px; margin: 0 auto 40px auto; text-align: left;">
+            <!-- Changed align-items to flex-start to push the image to the top -->
+            <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 50px; max-width: 1100px; margin: 0 auto 40px auto; text-align: left;">
                 
+                <!-- Left Column: Text Only -->
                 <div style="flex: 1; min-width: 300px; color: #bbbbbb; font-size: 1.15rem; line-height: 1.8;">
                     <p style="margin-bottom: 20px;">
                         Design Build Fly (DBF) is an international aircraft design competition in which student teams from universities across the world design, build, and fly a remote controlled aircraft. Each year the American Institute for Aeronautics and Astronautics (AIAA) presents a new design challenge requiring the design of a completely new aircraft. The competition is designed to provide college students with engineering project experience similar to the challenges they will experience in the workforce. Many alumni from RPI DBF now work at major aerospace companies such as Boeing, Lockheed Martin, Raytheon, and Northrop Grumman. You can find out more about the competition at the <a href="https://www.aiaadbf.org/" target="_blank" style="text-decoration: underline; font-weight: 600;">Design Build Fly website</a>.
                     </p>
-                    <p style="margin-bottom: 20px;">
+                    <p style="margin-bottom: 0;">
                         RPI DBF is as an extra-curricular activity that meets twice per week in the design phase and as often as possible during the build and test phases. The team made its first appearance at the 2008 competition and entered the Top 3 with a 3rd place finish in the 2013 competition. More recently, the team has seen continued success, placing 11th in 2024, 5th in 2025, and 6th in the 2026 competition.
                     </p>
                 </div>
 
-                <div style="flex: 1; min-width: 300px;">
+                <!-- Right Column: Image + Callout Box -->
+                <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 30px;">
                     <img src="Photos/team_photo.jpg" alt="About RPI DBF" onerror="this.src='https://via.placeholder.com/600x400/111111/555555?text=Team+Photo'" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                    
+                    <!-- NEW WELCOMING CALLOUT MOVED HERE -->
+                    <div style="background: rgba(204, 0, 0, 0.08); border-left: 4px solid var(--rpi-red); padding: 20px 25px; border-radius: 0 8px 8px 0;">
+                        <h3 style="color: var(--text-light); font-size: 1.3rem; margin-bottom: 8px;">No Experience Required!</h3>
+                        <p style="margin-bottom: 0; font-size: 1.05rem; color: #bbbbbb;">We welcome students from all majors and skill levels. Whether you are an aviation expert or have never picked up a tool in your life, <strong style="color: var(--text-light);">we will teach you everything you need to know.</strong></p>
+                    </div>
                 </div>
 
             </div>
@@ -130,10 +139,13 @@
             </div>
         </div>
     </section>
+    
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-col footer-logo">
-                <img src="Photos/rpi_dbf.png" alt="RPI DBF Logo">
+                <a href="index.html">
+                    <img src="Photos/rpi_dbf.png" alt="RPI DBF Logo">
+                </a>
             </div>
             <div class="footer-col footer-social">
                 <div class="social-links">

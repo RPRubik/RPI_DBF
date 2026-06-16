@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Engineering Subteams | RPI DBF</title>
+    <title>RPI DBF | Engineering Subteams</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
 
-    <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">
@@ -17,7 +16,6 @@
                 <span class="logo-text">RPI DBF</span>
             </a>
             <ul class="nav-links">
-                <!-- History on the left with Reports added -->
                 <li class="dropdown">
                     <a href="#" class="dropbtn">History <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
@@ -26,17 +24,16 @@
                         <a href="alumni.html">Alumni</a>
                     </div>
                 </li>
-                <!-- Engr Teams in the middle -->
                 <li class="dropdown">
-                    <a href="subteams.html" class="dropbtn">Engr Teams <i class="fas fa-caret-down"></i></a>
+                    <a href="subteams.html" class="dropbtn" style="color: var(--rpi-red);">Engr Teams <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
-                        <a href="subteams.html">Aerodynamics</a>
-                        <a href="subteams.html">Structures</a>
-                        <a href="subteams.html">Manufacturing</a>
-                        <a href="subteams.html">Subsystems</a>
-                        <a href="subteams.html">Special Projects</a>
-                        <a href="subteams.html">Propulsions</a>
-                        <a href="subteams.html">Testing</a>
+                        <a href="#aerodynamics">Aerodynamics</a>
+                        <a href="#structures">Structures</a>
+                        <a href="#manufacturing">Manufacturing</a>
+                        <a href="#subsystems">Subsystems</a>
+                        <a href="#special-projects">Special Projects</a>
+                        <a href="#propulsions">Propulsions</a>
+                        <a href="#testing">Testing</a>
                     </div>
                 </li>
                 <li><a href="sponsors.html">Sponsors</a></li>
@@ -45,96 +42,104 @@
         </div>
     </nav>
 
-    <!-- Subteams Section -->
-    <section class="section" style="padding-top: 150px;">
-        <div class="container">
-            <h2 class="text-center">Engineering Subteams</h2>
-            <div class="divider"></div>
-            <p class="text-center lead-text" style="margin-bottom: 60px;">The RPI DBF engineering division is organized into technical subteams responsible for key aspects of aircraft design, fabrication, and testing.</p>
-
-            <!-- 1. Aerodynamics -->
-            <div class="history-card">
-                <div class="history-text">
-                    <h3 class="history-title">Aerodynamics</h3>
-                    <p class="history-desc">Responsible for airfoil selection, outer mold line definition, high-lift device design, and wind tunnel testing. This team utilizes computational tools such as XFLR5, STAR-CCM+, FlightStream, MATLAB, and Python.</p>
-                </div>
-                <div class="history-image">
-                    <img src="Photos/aerodynamics.jpg" alt="Aerodynamics Subteam">
-                </div>
-            </div>
-
-            <!-- 2. Structures -->
-            <div class="history-card">
-                <div class="history-image">
-                    <img src="Photos/structures.jpg" alt="Structures Subteam">
-                </div>
-                <div class="history-text">
-                    <h3 class="history-title">Structures</h3>
-                    <p class="history-desc">Tasked with creating the wing, fuselage, and tail structure, including materials selection and structural/composite analysis using Simcenter NASTRAN and FEA.</p>
-                </div>
-            </div>
-
-            <!-- 3. Manufacturing -->
-            <div class="history-card">
-                <div class="history-text">
-                    <h3 class="history-title">Manufacturing</h3>
-                    <p class="history-desc">Focuses on translating CAD models to physical components and managing aircraft assembly, utilizing techniques such as wood manufacturing and carbon fiber layups.</p>
-                </div>
-                <div class="history-image">
-                    <img src="Photos/manufacturing.jpg" alt="Manufacturing Subteam">
-                </div>
-            </div>
-
-            <!-- 4. Subsystems -->
-            <div class="history-card">
-                <div class="history-image">
-                    <img src="Photos/subsystems.jpg" alt="Subsystems Subteam">
-                </div>
-                <div class="history-text">
-                    <h3 class="history-title">Subsystems</h3>
-<p class="history-desc">Manages the design, prototyping, and testing of mission-critical systems. This team handles payload integration, custom deployment mechanisms, and the electromechanical components required to satisfy the unique mission profiles of each competition year.</p>                </div>
-            </div>
-
-            <!-- 5. Special Projects -->
-            <div class="history-card">
-                <div class="history-text">
-                    <h3 class="history-title">Special Projects</h3>
-                    <p class="history-desc">Dedicated to R&D, innovation, and model refinement, this team iterates on aircraft concepts throughout the design methodology cycle.</p>
-                </div>
-                <div class="history-image">
-                    <img src="Photos/special-projects.jpg" alt="Special Projects Subteam">
-                </div>
-            </div>
-
-            <!-- 6. Propulsions -->
-            <div class="history-card">
-                <div class="history-image">
-                    <img src="Photos/propulsions.jpg" alt="Propulsions Subteam">
-                </div>
-                <div class="history-text">
-                    <h3 class="history-title">Propulsions</h3>
-                    <p class="history-desc">Responsible for motor, battery, and propeller selection. They utilize tools like eCalc and RC propulsion modeling to optimize flight performance.</p>
-                </div>
-            </div>
-
-            <!-- 7. Testing -->
-            <div class="history-card">
-                <div class="history-text">
-                    <h3 class="history-title">Testing</h3>
-                    <p class="history-desc">Validates aerodynamic modeling, structural capabilities, and subsystem performance through ground, wind tunnel, and flight testing.</p>
-                </div>
-                <div class="history-image">
-                    <img src="Photos/testing.jpg" alt="Testing Subteam">
-                </div>
-            </div>
+    <section class="page-header" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('Photos/M3_Flight.jpg') no-repeat center center / cover;">
+        <div class="container text-center">
+            <h1 style="font-size: 4rem; text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8); margin-bottom: 10px;">Engineering Subteams</h1>
+            <p style="font-size: 1.3rem; color: #dddddd; max-width: 800px; margin: 0 auto;">The RPI DBF engineering division is organized into technical subteams responsible for key aspects of aircraft design, fabrication, and testing.</p>
         </div>
     </section>
 
-    <!-- Footer -->
+    <section class="section">
+        <div class="container">
+
+            <div id="aerodynamics" style="scroll-margin-top: 100px;">
+                <div style="max-width: 900px; margin-bottom: 30px;">
+                    <h2 style="font-size: 3rem; color: var(--rpi-red); font-family: var(--font-heading); font-weight: 900; margin-bottom: 15px; text-transform: uppercase;">Aerodynamics</h2>
+                    <p style="font-size: 1.15rem; color: #bbb; line-height: 1.8;">Responsible for airfoil selection, outer mold line definition, high-lift device design, and wind tunnel testing. This team utilizes computational tools such as XFLR5, STAR-CCM+, FlightStream, MATLAB, and Python to simulate fluid dynamics and pressure coefficients.</p>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; max-width: 900px;">
+                    <img src="Photos/CFD_separated_flow.png" alt="CFD Analysis" onerror="this.src='https://via.placeholder.com/800x400/222222/777777?text=CFD+Analysis'" style="width: 100%; height: 280px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+                    <img src="Photos/wind_tunnel_tip_vortex.jpg" alt="Wind Tunnel Testing" onerror="this.src='https://via.placeholder.com/800x400/222222/777777?text=Wind+Tunnel+Test'" style="width: 100%; height: 280px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+                </div>
+            </div>
+
+            <div style="height: 2px; width: 100%; background-color: var(--rpi-red); margin: 60px 0; border-radius: 2px;"></div>
+
+            <div id="structures" style="scroll-margin-top: 100px;">
+                <div style="max-width: 900px; margin-bottom: 30px;">
+                    <h2 style="font-size: 3rem; color: var(--rpi-red); font-family: var(--font-heading); font-weight: 900; margin-bottom: 15px; text-transform: uppercase;">Structures</h2>
+                    <p style="font-size: 1.15rem; color: #bbb; line-height: 1.8;">Tasked with creating the wing, fuselage, and tail structure, including materials selection and structural/composite analysis using Simcenter NASTRAN and FEA. This ensures our aircraft can withstand flight loads while remaining as lightweight as possible.</p>
+                </div>
+                <img src="Photos/WingAnalysis.png" alt="FEA Structural Analysis" onerror="this.src='https://via.placeholder.com/800x500/222222/777777?text=FEA+Analysis'" style="width: 100%; max-width: 800px; max-height: 400px; object-fit: contain; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4); background-color: #f8f9fa; padding: 20px; box-sizing: border-box;">
+            </div>
+
+            <div style="height: 2px; width: 100%; background-color: var(--rpi-red); margin: 60px 0; border-radius: 2px;"></div>
+
+            <div id="manufacturing" style="scroll-margin-top: 100px;">
+                <div style="max-width: 900px; margin-bottom: 30px;">
+                    <h2 style="font-size: 3rem; color: var(--rpi-red); font-family: var(--font-heading); font-weight: 900; margin-bottom: 15px; text-transform: uppercase;">Manufacturing</h2>
+                    <p style="font-size: 1.15rem; color: #bbb; line-height: 1.8;">Focuses on translating CAD models to physical components and managing aircraft assembly, utilizing techniques such as wood manufacturing and carbon fiber layups. This team brings our digital designs into the real world.</p>
+                </div>
+                <img src="Photos/building_juggernaut.jpg" alt="Manufacturing Subteam" onerror="this.src='https://via.placeholder.com/800x500/222222/777777?text=Team+Manufacturing'" style="width: 100%; max-width: 800px; max-height: 400px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+            </div>
+
+            <div style="height: 2px; width: 100%; background-color: var(--rpi-red); margin: 60px 0; border-radius: 2px;"></div>
+
+            <div id="subsystems" style="scroll-margin-top: 100px;">
+                <div style="max-width: 900px; margin-bottom: 30px;">
+                    <h2 style="font-size: 3rem; color: var(--rpi-red); font-family: var(--font-heading); font-weight: 900; margin-bottom: 15px; text-transform: uppercase;">Subsystems</h2>
+                    <p style="font-size: 1.15rem; color: #bbb; line-height: 1.8;">Manages the design, prototyping, and testing of mission-critical systems. This team handles payload integration, custom deployment mechanisms, and the electromechanical components required to satisfy the unique mission profiles of each competition year.</p>                
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; max-width: 900px;">
+                    <img src="Photos/passenger%20release%20CAD.png" alt="Servo Hatch Mechanism CAD" onerror="this.src='https://via.placeholder.com/800x400/222222/777777?text=Mechanism+CAD'" style="width: 100%; height: 250px; object-fit: contain; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4); background-color: #f8f9fa; padding: 15px; box-sizing: border-box;">
+                    
+                    <img src="Photos/X1%20glider%20cad.png" alt="Glider CAD" onerror="this.src='https://via.placeholder.com/800x400/222222/777777?text=Glider+CAD'" style="width: 100%; height: 250px; object-fit: contain; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4); background-color: #f8f9fa; padding: 15px; box-sizing: border-box;">
+                    
+                    <img src="Photos/banner%20tow.jpg" alt="Banner Tow Testing" onerror="this.src='https://via.placeholder.com/800x400/222222/777777?text=Banner+Tow'" style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+                </div>
+            </div>
+
+            <div style="height: 2px; width: 100%; background-color: var(--rpi-red); margin: 60px 0; border-radius: 2px;"></div>
+
+            <div id="special-projects" style="scroll-margin-top: 100px;">
+                <div style="max-width: 900px; margin-bottom: 30px;">
+                    <h2 style="font-size: 3rem; color: var(--rpi-red); font-family: var(--font-heading); font-weight: 900; margin-bottom: 15px; text-transform: uppercase;">Special Projects</h2>
+                    <p style="font-size: 1.15rem; color: #bbb; line-height: 1.8;">Dedicated to R&D, innovation, and model refinement, this team iterates on aircraft concepts throughout the design methodology cycle.</p>
+                </div>
+                <img src="Photos/special-projects.jpg" alt="Special Projects Subteam" onerror="this.src='https://via.placeholder.com/800x500/222222/777777?text=Special+Projects'" style="width: 100%; max-width: 800px; max-height: 400px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+            </div>
+
+            <div style="height: 2px; width: 100%; background-color: var(--rpi-red); margin: 60px 0; border-radius: 2px;"></div>
+
+            <div id="propulsions" style="scroll-margin-top: 100px;">
+                <div style="max-width: 900px; margin-bottom: 30px;">
+                    <h2 style="font-size: 3rem; color: var(--rpi-red); font-family: var(--font-heading); font-weight: 900; margin-bottom: 15px; text-transform: uppercase;">Propulsions</h2>
+                    <p style="font-size: 1.15rem; color: #bbb; line-height: 1.8;">Responsible for motor, battery, and propeller selection. They utilize tools like eCalc and RC propulsion modeling to optimize flight performance.</p>
+                </div>
+                <img src="Photos/propulsions.jpg" alt="Propulsions Subteam" onerror="this.src='https://via.placeholder.com/800x500/222222/777777?text=Propulsions'" style="width: 100%; max-width: 800px; max-height: 400px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+            </div>
+
+            <div style="height: 2px; width: 100%; background-color: var(--rpi-red); margin: 60px 0; border-radius: 2px;"></div>
+
+            <div id="testing" style="scroll-margin-top: 100px;">
+                <div style="max-width: 900px; margin-bottom: 30px;">
+                    <h2 style="font-size: 3rem; color: var(--rpi-red); font-family: var(--font-heading); font-weight: 900; margin-bottom: 15px; text-transform: uppercase;">Testing</h2>
+                    <p style="font-size: 1.15rem; color: #bbb; line-height: 1.8;">Validates aerodynamic modeling, structural capabilities, and subsystem performance through ground, wind tunnel, and flight testing.</p>
+                </div>
+                <img src="Photos/testing.jpg" alt="Aircraft Flight Testing" onerror="this.src='https://via.placeholder.com/800x500/222222/777777?text=Flight+Testing'" style="width: 100%; max-width: 800px; max-height: 400px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
+            </div>
+
+        </div>
+    </section>
+
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-col footer-logo">
-                <img src="Photos/rpi_dbf.png" alt="RPI DBF Logo">
+                <a href="index.html">
+                    <img src="Photos/rpi_dbf.png" alt="RPI DBF Logo">
+                </a>
             </div>
             <div class="footer-col footer-social">
                 <div class="social-links">
