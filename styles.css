@@ -33,34 +33,44 @@ h1, h2, h3, h4 {
 
 a { text-decoration: none; color: inherit; }
 
-/* --- Navigation --- */
+/* 1. Lock the navbar to a small, thin size */
 #navbar {
     position: fixed;
-    top: 0; width: 100%;
+    top: 0; 
+    width: 100%;
     background: rgba(30, 30, 30, 0.98); 
-    padding: 0.8rem 0; z-index: 1000;
+    padding: 5px 0; /* Tiny padding to keep the bar slim */
+    height: 70px; /* STRICT height so it never gets too big */
+    z-index: 1000;
     border-bottom: 3px solid var(--rpi-red);
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
 }
 
+/* 2. Make the container fit perfectly inside the locked bar */
 .nav-container {
-    display: flex; justify-content: space-between; align-items: center;
-    width: 90%; max-width: 1200px; margin: auto;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;             /* Stretches to the full screen width */
+    padding: 0 30px;         /* Adds a clean margin so it doesn't touch the absolute edge */
+    margin: auto;
+    height: 100%; 
 }
 
 .logo { 
     display: flex;
-    flex-direction: column;
     align-items: center;
-    cursor: pointer; 
     text-decoration: none;
+    height: 40px; /* Locks the header to stay small and slim */
 }
 
 .nav-logo-img {
-    height: 40px; 
-    width: auto;
-    transition: transform 0.3s ease;
+    width: 170px; /* Bumped up from 200px */
+    height: auto; 
+    max-height: none; 
+    transform-origin: left center; 
 }
+
 
 .logo-text {
     color: var(--text-light);
@@ -71,9 +81,7 @@ a { text-decoration: none; color: inherit; }
     letter-spacing: 1px;
 }
 
-.logo:hover .nav-logo-img {
-    transform: scale(1.05);
-}
+
 
 .nav-links { list-style: none; display: flex; align-items: center; gap: 25px; }
 .nav-links a { color: var(--text-light); font-weight: 600; font-size: 0.95rem; text-transform: uppercase; transition: color 0.3s; }
