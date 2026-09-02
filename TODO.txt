@@ -1,3 +1,2 @@
-1. Fix the join button 
-2. add more photos to the sub teams page
-3. change header logo   
+1. add more photos to the sub teams page
+2. Add sponsors page

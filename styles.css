@@ -492,3 +492,51 @@ h2 { font-size: 2.8rem; margin-bottom: 10px; }
     object-fit: contain; 
     display: block;
 }
+
+/* ========================================= */
+/* --- Image Modal Styles --- */
+/* ========================================= */
+
+.modal {
+    display: none; /* JavaScript will change this to 'flex' */
+    position: fixed; 
+    z-index: 2000; 
+    left: 0; 
+    top: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(0,0,0,0.9); 
+    align-items: center;      /* Perfectly centers the image vertically */
+    justify-content: center;  /* Perfectly centers the image horizontally */
+}
+
+.modal-content {
+    width: 90vw;              /* Tells the image to take up 90% of screen width */
+    height: 90vh;             /* Tells the image to take up 90% of screen height */
+    object-fit: contain;      /* Scales the image up perfectly without squishing or cropping */
+    animation: zoom 0.3s ease;
+}
+
+@keyframes zoom {
+    from {transform: scale(0.5)} 
+    to {transform: scale(1)}
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 2001;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: var(--rpi-red);
+    text-decoration: none;
+    cursor: pointer;
+}   
