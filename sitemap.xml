@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rpidbf.org/</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://rprubik.github.io/RPI_DBF/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rpidbf.org/subteams.html</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://rprubik.github.io/RPI_DBF/join.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rpidbf.org/history.html</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://rprubik.github.io/RPI_DBF/subteams.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rpidbf.org/reports.html</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://rprubik.github.io/RPI_DBF/history.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rpidbf.org/join.html</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://rprubik.github.io/RPI_DBF/reports.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rpidbf.org/alumni.html</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://rprubik.github.io/RPI_DBF/alumni.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rpidbf.org/sponsors.html</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://rprubik.github.io/RPI_DBF/sponsors.html</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
