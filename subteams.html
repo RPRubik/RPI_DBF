@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RPI DBF | Engineering Subteams</title>
+    <title>Engineering Subteams | RPI DBF (Design Build Fly)</title>
     <meta name="description" content="Explore the engineering subteams at RPI DBF: Aerodynamics, Structures, Manufacturing, Subsystems, Special Projects, Propulsions, and Testing.">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rprubik.github.io/RPI_DBF/subteams.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rprubik.github.io/RPI_DBF/subteams.html">
+    <meta property="og:title" content="Engineering Subteams | RPI DBF">
+    <meta property="og:description" content="Explore the engineering subteams at RPI DBF: Aerodynamics, Structures, Manufacturing, Subsystems, Special Projects, Propulsions, and Testing.">
+    <meta property="og:image" content="https://rprubik.github.io/RPI_DBF/subteams.html/Photos/CFD_separated_flow.png">
 
     <link rel="icon" type="image/png" href="Photos/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;800;900&display=swap" rel="stylesheet">
@@ -58,17 +66,17 @@
         /* --- Unified Gallery Columns (Masonry Layout) --- */
         .subteam-gallery {
             flex: 1.5; 
-            column-count: 2; /* Creates a Pinterest-style waterfall column layout */
-            column-gap: 15px; /* Sets horizontal spacing between columns */
+            column-count: 2;
+            column-gap: 15px;
             display: block; 
         }
 
         .subteam-img {
             width: 100%;
             height: auto; 
-            margin-bottom: 15px; /* Matches column-gap to ensure perfectly even spacing everywhere */
-            break-inside: avoid; /* Prevents an image from being cut in half across columns */
-            border-radius: 12px; /* Increased rounding for gallery images */
+            margin-bottom: 15px;
+            break-inside: avoid;
+            border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             transition: transform 0.3s ease;
             cursor: pointer; 
@@ -87,7 +95,7 @@
                 padding: 25px;
             }
             .subteam-gallery {
-                column-count: 2; /* Keeps two columns on mobile screens */
+                column-count: 2;
             }
         }
     </style>
@@ -101,7 +109,7 @@
             </a>
             <ul class="nav-links">
                 <li class="dropdown">
-                    <a href="#" class="dropbtn">History <i class="fas fa-caret-down"></i></a>
+                    <a href="history.html" class="dropbtn">History <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
                         <a href="history.html">Aircrafts</a>
                         <a href="reports.html">Reports</a>
@@ -136,10 +144,10 @@
                 <div class="subteam-gallery">
                     <img src="Photos/CFD_separated_flow.png" alt="CFD Separated Flow Analysis" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=CFD+Analysis'">
                     <img src="Photos/wind_tunnel_tip_vortex.jpg" alt="Wind Tunnel Tip Vortex Testing" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Wind+Tunnel+Test'">
-                    <img src="Photos/aero1.png" alt="Aerodynamic Simulation 1" class="subteam-img">
-                    <img src="Photos/aero2.png" alt="Aerodynamic Simulation 2" class="subteam-img">
-                    <img src="Photos/CFD1.webp" alt="CFD Simulation Mesh" class="subteam-img">
-                    <img src="Photos/CFD2.webp" alt="CFD Pressure Visualization" class="subteam-img">
+                    <img src="Photos/aero1.png" alt="Aerodynamic Simulation 1" class="subteam-img" loading="lazy">
+                    <img src="Photos/aero2.png" alt="Aerodynamic Simulation 2" class="subteam-img" loading="lazy">
+                    <img src="Photos/CFD1.webp" alt="CFD Simulation Mesh" class="subteam-img" loading="lazy">
+                    <img src="Photos/CFD2.webp" alt="CFD Pressure Visualization" class="subteam-img" loading="lazy">
                 </div>
             </div>
 
@@ -149,11 +157,11 @@
                     <p class="subteam-desc">Tasked with creating the wing, fuselage, and tail structure, including materials selection and structural/composite analysis using Simcenter NASTRAN and FEA. This ensures our aircraft can withstand flight loads while remaining as lightweight as possible.</p>
                 </div>
                 <div class="subteam-gallery">
-                    <img src="Photos/wingtip testing.png" alt="Wingtip FEA Structural Analysis" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=FEA+Analysis'">
-                    <img src="Photos/tail fea.webp" alt="Tail Structure FEA" class="subteam-img">
-                    <img src="Photos/Structures 2024.png" alt="Structures CAD 2024" class="subteam-img">
-                    <img src="Photos/wing fea.jpg" alt="Wing Structural Stress Analysis" class="subteam-img">
-                    <img src="Photos/wing_fea.webp" alt="Wing FEA Deflection" class="subteam-img">
+                    <img src="Photos/wingtip testing.png" alt="Wingtip FEA Structural Analysis" class="subteam-img" loading="lazy" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=FEA+Analysis'">
+                    <img src="Photos/tail fea.webp" alt="Tail Structure FEA" class="subteam-img" loading="lazy">
+                    <img src="Photos/Structures 2024.png" alt="Structures CAD 2024" class="subteam-img" loading="lazy">
+                    <img src="Photos/wing fea.jpg" alt="Wing Structural Stress Analysis" class="subteam-img" loading="lazy">
+                    <img src="Photos/wing_fea.webp" alt="Wing FEA Deflection" class="subteam-img" loading="lazy">
                 </div>
             </div>
 
@@ -163,10 +171,10 @@
                     <p class="subteam-desc">Focuses on translating CAD models to physical components and managing aircraft assembly, utilizing techniques such as wood manufacturing and carbon fiber layups. This team brings our digital designs into the real world.</p>
                 </div>
                 <div class="subteam-gallery">
-                    <img src="Photos/building_juggernaut.jpg" alt="Building Juggernaut Manufacturing" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Team+Manufacturing'">
-                    <img src="Photos/Juggernaut_manu.JPG" alt="Juggernaut Wing Layup" class="subteam-img">
-                    <img src="Photos/Foam.JPG" alt="Foam Core Cutting" class="subteam-img">
-                    <img src="Photos/foam.webp" alt="Foam Wing Ribs" class="subteam-img">
+                    <img src="Photos/building_juggernaut.jpg" alt="Building Juggernaut Manufacturing" class="subteam-img" loading="lazy" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Team+Manufacturing'">
+                    <img src="Photos/Juggernaut_manu.JPG" alt="Juggernaut Wing Layup" class="subteam-img" loading="lazy">
+                    <img src="Photos/Foam.JPG" alt="Foam Core Cutting" class="subteam-img" loading="lazy">
+                    <img src="Photos/foam.webp" alt="Foam Wing Ribs" class="subteam-img" loading="lazy">
                 </div>
             </div>
 
@@ -177,10 +185,10 @@
                 </div>
                 
                 <div class="subteam-gallery">
-                    <img src="Photos/passenger%20release%20CAD.png" alt="Passenger Release Servo Mechanism CAD" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Mechanism+CAD'">
-                    <img src="Photos/X1%20glider%20cad.png" alt="X1 Autonomous Glider CAD" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Glider+CAD'">
-                    <img src="Photos/banner%20tow.jpg" alt="Banner Tow Release Testing" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Banner+Tow'">
-                    <img src="https://placehold.co/600x400/222222/777777/png?text=Subsystems+Mechanism" alt="Subsystems Mechanism Prototype" class="subteam-img">
+                    <img src="Photos/passenger%20release%20CAD.png" alt="Passenger Release Servo Mechanism CAD" class="subteam-img" loading="lazy" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Mechanism+CAD'">
+                    <img src="Photos/X1%20glider%20cad.png" alt="X1 Autonomous Glider CAD" class="subteam-img" loading="lazy" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Glider+CAD'">
+                    <img src="Photos/banner%20tow.jpg" alt="Banner Tow Release Testing" class="subteam-img" loading="lazy" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Banner+Tow'">
+                    <img src="https://placehold.co/600x400/222222/777777/png?text=Subsystems+Mechanism" alt="Subsystems Mechanism Prototype" class="subteam-img" loading="lazy">
                 </div>
             </div>
 
@@ -190,10 +198,10 @@
                     <p class="subteam-desc">Dedicated to R&D, innovation, and model refinement, this team iterates on aircraft concepts throughout the design methodology cycle.</p>
                 </div>
                 <div class="subteam-gallery">
-                    <img src="Photos/wing.jpg" alt="Special Projects Wing Assembly" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Special+Projects'">
-                    <img src="Photos/wing 2.webp" alt="Experimental Wing Layout" class="subteam-img">
-                    <img src="Photos/test plane.webp" alt="Test Plane Airframe" class="subteam-img">
-                    <img src="Photos/test plane cole.webp" alt="Test Plane Integration" class="subteam-img">
+                    <img src="Photos/wing.jpg" alt="Special Projects Wing Assembly" class="subteam-img" loading="lazy" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Special+Projects'">
+                    <img src="Photos/wing 2.webp" alt="Experimental Wing Layout" class="subteam-img" loading="lazy">
+                    <img src="Photos/test plane.webp" alt="Test Plane Airframe" class="subteam-img" loading="lazy">
+                    <img src="Photos/test plane cole.webp" alt="Test Plane Integration" class="subteam-img" loading="lazy">
                 </div>
             </div>
 
@@ -203,9 +211,9 @@
                     <p class="subteam-desc">Responsible for motor, battery, and propeller selection. They utilize tools like eCalc and RC propulsion modeling to optimize flight performance.</p>
                 </div>
                 <div class="subteam-gallery">
-                    <img src="Photos/thrust test cad.webp" alt="Thrust Stand Test Rig CAD" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Propulsions'">
-                    <img src="Photos/thrust test electronics.webp" alt="Thrust Stand Test Electronics" class="subteam-img">
-                    <img src="Photos/thrust test electronics 2.webp" alt="Dynamometer Wiring and Sensor Setup" class="subteam-img">
+                    <img src="Photos/thrust test cad.webp" alt="Thrust Stand Test Rig CAD" class="subteam-img" loading="lazy" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Propulsions'">
+                    <img src="Photos/thrust test electronics.webp" alt="Thrust Stand Test Electronics" class="subteam-img" loading="lazy">
+                    <img src="Photos/thrust test electronics 2.webp" alt="Dynamometer Wiring and Sensor Setup" class="subteam-img" loading="lazy">
                 </div>
             </div>
 
@@ -215,10 +223,10 @@
                     <p class="subteam-desc">Validates aerodynamic modeling, structural capabilities, and subsystem performance through ground, wind tunnel, and flight testing.</p>
                 </div>
                 <div class="subteam-gallery">
-                    <img src="Photos/boom aoa v2.png" alt="Aircraft Boom Angle of Attack Probe" class="subteam-img" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Flight+Testing'">
-                    <img src="Photos/AOA on boom.png" alt="AOA Sensor Installed on Boom" class="subteam-img">
-                    <img src="Photos/cad_stack.png" alt="Avionics Sensor Stack CAD" class="subteam-img">
-                    <img src="Photos/New_blackbox.webp" alt="Flight Blackbox Telemetry Unit" class="subteam-img">
+                    <img src="Photos/boom aoa v2.png" alt="Aircraft Boom Angle of Attack Probe" class="subteam-img" loading="lazy" onerror="this.src='https://placehold.co/600x400/222222/777777/png?text=Flight+Testing'">
+                    <img src="Photos/AOA on boom.png" alt="AOA Sensor Installed on Boom" class="subteam-img" loading="lazy">
+                    <img src="Photos/cad_stack.png" alt="Avionics Sensor Stack CAD" class="subteam-img" loading="lazy">
+                    <img src="Photos/New_blackbox.webp" alt="Flight Blackbox Telemetry Unit" class="subteam-img" loading="lazy">
                 </div>
             </div>
 
@@ -229,16 +237,16 @@
         <div class="footer-container">
             <div class="footer-col footer-logo">
                 <a href="index.html">
-                    <img src="Photos/rpi_dbf.png" alt="RPI DBF Logo">
+                    <img src="Photos/rpi_dbf.png" alt="RPI DBF Logo" loading="lazy">
                 </a>
             </div>
             <div class="footer-col footer-social">
                 <div class="social-links">
-                    <a href="https://www.instagram.com/rpidbf/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/rpidbf/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://discord.gg/p33m8uF" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
-                    <a href="https://www.facebook.com/rpidbf" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.youtube.com/@RPIDBF" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/rpidbf/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rpidbf/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://discord.gg/p33m8uF" target="_blank" rel="noopener" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.facebook.com/rpidbf" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@RPIDBF" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="footer-col footer-contact">

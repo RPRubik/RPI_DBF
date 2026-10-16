@@ -7,15 +7,17 @@
     
     <!-- Primary SEO Meta Tags -->
     <meta name="description" content="Official website of RPI DBF (Rensselaer Polytechnic Institute Design Build Fly). Discover our competition aircraft, engineering subteams, design reports, and sponsors.">
-    <meta name="keywords" content="RPI DBF, Rensselaer Design Build Fly, RPI AIAA DBF, RPI DBF Team, Rensselaer Polytechnic Institute Design Build Fly, AIAA DBF">
+    <meta name="keywords" content="RPI DBF, Rensselaer Design Build Fly, RPI AIAA DBF, RPI DBF Team, Rensselaer Polytechnic Institute Design Build Fly, AIAA DBF, RPI Aerospace Club">
     <meta name="author" content="RPI Design Build Fly">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rprubik.github.io/RPI_DBF/">
 
     <!-- Open Graph / Facebook / LinkedIn -->
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rprubik.github.io/RPI_DBF/">
     <meta property="og:title" content="RPI DBF | Rensselaer Design Build Fly">
     <meta property="og:description" content="Official website of RPI DBF. Student-led aerospace design and engineering at Rensselaer Polytechnic Institute.">
-    <meta property="og:image" content="Photos/Header Logo.png">
+    <meta property="og:image" content="https://rprubik.github.io/RPI_DBF/Photos/Header%20Logo.png">
 
     <!-- Favicon & Styles -->
     <link rel="icon" type="image/png" href="Photos/logo.png">
@@ -29,15 +31,26 @@
       "@context": "https://schema.org",
       "@type": "EducationalOrganization",
       "name": "RPI DBF",
+      "url": "https://rpidbf.org/",
       "alternateName": [
         "RPI Design Build Fly",
         "Rensselaer Design Build Fly",
         "Rensselaer DBF"
       ],
-      "logo": "Photos/Header Logo.png",
+      "logo": "https://rpidbf.org/Photos/Header%20Logo.png",
+      "email": "rpidbf@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ricketts 403, Rensselaer Polytechnic Institute, 110 8th St",
+        "addressLocality": "Troy",
+        "addressRegion": "NY",
+        "postalCode": "12180",
+        "addressCountry": "US"
+      },
       "parentOrganization": {
         "@type": "CollegeOrUniversity",
-        "name": "Rensselaer Polytechnic Institute"
+        "name": "Rensselaer Polytechnic Institute",
+        "url": "https://www.rpi.edu/"
       },
       "sameAs": [
         "https://www.instagram.com/rpidbf/",
@@ -54,14 +67,14 @@
 </head>
 <body>
      
-<nav id="navbar">
+    <nav id="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">
                 <img src="Photos/Header Logo.png" alt="RPI DBF Logo" class="nav-logo-img">
             </a>
             <ul class="nav-links">
                 <li class="dropdown">
-                    <a href="#" class="dropbtn">History <i class="fas fa-caret-down"></i></a>
+                    <a href="history.html" class="dropbtn">History <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
                         <a href="history.html">Aircrafts</a>
                         <a href="reports.html">Reports</a>
@@ -69,7 +82,7 @@
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a href="subteams.html" class="dropbtn">Engr Teams </a>
+                    <a href="subteams.html" class="dropbtn">Engr Teams</a>
                 </li>
                 <li><a href="sponsors.html">Sponsors</a></li>
                 <li><a href="join.html" class="btn-nav">Join!</a></li>
@@ -96,15 +109,15 @@
                 
                 <div style="flex: 1; min-width: 300px; color: #bbbbbb; font-size: 1.15rem; line-height: 1.8;">
                     <p style="margin-bottom: 20px;">
-                        Design Build Fly (DBF) is an international aircraft design competition in which student teams from universities across the world design, build, and fly a remote controlled aircraft. Each year the American Institute for Aeronautics and Astronautics (AIAA) presents a new design challenge requiring the design of a completely new aircraft. The competition is designed to provide college students with engineering project experience similar to the challenges they will experience in the workforce. Many alumni from RPI DBF now work at major aerospace companies such as Boeing, Lockheed Martin, Raytheon, and Northrop Grumman. You can find out more about the competition at the <a href="https://www.aiaadbf.org/" target="_blank" style="text-decoration: underline; font-weight: 600;">Design Build Fly website</a>.
+                        Design Build Fly (DBF) is an international aircraft design competition in which student teams from universities across the world design, build, and fly a remote controlled aircraft. Each year the American Institute for Aeronautics and Astronautics (AIAA) presents a new design challenge requiring the design of a completely new aircraft. The competition is designed to provide college students with engineering project experience similar to the challenges they will experience in the workforce. Many alumni from RPI DBF now work at major aerospace companies such as Boeing, Lockheed Martin, Raytheon, and Northrop Grumman. You can find out more about the competition at the <a href="https://www.aiaadbf.org/" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: 600;">Design Build Fly website</a>.
                     </p>
                     <p style="margin-bottom: 0;">
-                        RPI DBF is as an extra-curricular activity that meets twice per week in the design phase and as often as possible during the build and test phases. The team made its first appearance at the 2008 competition and entered the Top 3 with a 3rd place finish in the 2013 competition. More recently, the team has seen continued success, placing 11th in 2024, 5th in 2025, and 6th in the 2026 competition.
+                        RPI DBF is an extra-curricular activity that meets twice per week in the design phase and as often as possible during the build and test phases. The team made its first appearance at the 2008 competition and entered the Top 3 with a 3rd place finish in the 2013 competition. More recently, the team has seen continued success, placing 11th in 2024, 5th in 2025, and 6th in the 2026 competition.
                     </p>
                 </div>
 
                 <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 30px;">
-                    <img src="Photos/team_photo.jpg" alt="RPI DBF Team Photo" onerror="this.src='https://via.placeholder.com/600x400/111111/555555?text=Team+Photo'" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                    <img src="Photos/team_photo.jpg" alt="RPI DBF Team Photo" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/111111/555555?text=Team+Photo'" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
                     
                     <div style="background: rgba(204, 0, 0, 0.08); border-left: 4px solid var(--rpi-red); padding: 20px 25px; border-radius: 0 8px 8px 0;">
                         <h3 style="color: var(--text-light); font-size: 1.3rem; margin-bottom: 8px;">No Experience Required!</h3>
@@ -131,7 +144,7 @@
                 auto-rotate 
                 camera-controls 
                 interaction-prompt="auto"
-                style="margin: 40px auto; width: 1000px; height: 400px; background: #111; border: 2px solid #444; border-radius: 8px;">
+                style="margin: 40px auto; width: 100%; max-width: 1000px; height: 400px; background: #111; border: 2px solid #444; border-radius: 8px;">
             </model-viewer>
             <p style="color: #777; font-size: 0.9rem; margin-top: 10px;">Interact to rotate and zoom.</p>
 
@@ -148,40 +161,40 @@
             
             <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; margin-top: 30px;">
                 
-                <a href="https://eng.rpi.edu/" class="sponsor-card" target="_blank">
-                    <img src="Photos/rpi_eng.png" alt="Rensselaer School of Engineering">
+                <a href="https://eng.rpi.edu/" class="sponsor-card" target="_blank" rel="noopener">
+                    <img src="Photos/rpi_eng.png" alt="Rensselaer School of Engineering" loading="lazy">
                 </a>
                 
-                <a href="https://mane.rpi.edu/" class="sponsor-card" target="_blank">
-                    <img src="Photos/mane_logo.png" alt="Rensselaer MANE">
+                <a href="https://mane.rpi.edu/" class="sponsor-card" target="_blank" rel="noopener">
+                    <img src="Photos/mane_logo.png" alt="Rensselaer MANE" loading="lazy">
                 </a>
                 
-                <a href="https://www.boeing.com/" class="sponsor-card" target="_blank">
-                    <img src="Photos/boeing.png" alt="The Boeing Company">
+                <a href="https://www.boeing.com/" class="sponsor-card" target="_blank" rel="noopener">
+                    <img src="Photos/boeing.png" alt="The Boeing Company" loading="lazy">
                 </a>
                 
-                <a href="https://www.rtx.com/" class="sponsor-card" target="_blank">
-                    <img src="Photos/rtx.png" alt="RTX Corporation">
+                <a href="https://www.rtx.com/" class="sponsor-card" target="_blank" rel="noopener">
+                    <img src="Photos/rtx.png" alt="RTX Corporation" loading="lazy">
                 </a>
 
-                <a href="https://www.solidworks.com/" class="sponsor-card" target="_blank">
-                    <img src="Photos/solidworks.png" alt="SolidWorks">
+                <a href="https://www.solidworks.com/" class="sponsor-card" target="_blank" rel="noopener">
+                    <img src="Photos/solidworks.png" alt="SolidWorks" loading="lazy">
                 </a>
 
-                <a href="https://www.easycomposites.co.uk/" class="sponsor-card" target="_blank">
-                    <img src="Photos/easy_comp.jpg" alt="Easy Composites">
+                <a href="https://www.easycomposites.co.uk/" class="sponsor-card" target="_blank" rel="noopener">
+                    <img src="Photos/easy_comp.jpg" alt="Easy Composites" loading="lazy">
                 </a>
                 
-                <a href="https://bsi-inc.com/" class="sponsor-card" target="_blank">
-                    <img src="Photos/BSI_logo.png" alt="BSI Inc.">
+                <a href="https://bsi-inc.com/" class="sponsor-card" target="_blank" rel="noopener">
+                    <img src="Photos/BSI_logo.png" alt="BSI Inc." loading="lazy">
                 </a>
 
-                <a href="https://www.scorpionsystem.com/" class="sponsor-card" target="_blank">
-                    <img src="Photos/scorpion_logo.jpg" alt="Scorpion System">
+                <a href="https://www.scorpionsystem.com/" class="sponsor-card" target="_blank" rel="noopener">
+                    <img src="Photos/scorpion_logo.jpg" alt="Scorpion System" loading="lazy">
                 </a>
 
-                <a href="https://www.rockwestcomposites.com/?srsltid=AU7gw4XrYXx-RvCQiA45NS8HQKoTAKlHZy_QZ2rW8c8mdGoLQRjNrC_v" class="sponsor-card" target="_blank">
-                    <img src="Photos/Rockwest_comp.png" alt="Rockwest Composites">
+                <a href="https://www.rockwestcomposites.com/" class="sponsor-card" target="_blank" rel="noopener">
+                    <img src="Photos/Rockwest_comp.png" alt="Rockwest Composites" loading="lazy">
                 </a>
 
                 <div class="sponsor-card" style="flex-direction: column; color: #333; cursor: default;">
@@ -197,16 +210,16 @@
         <div class="footer-container">
             <div class="footer-col footer-logo">
                 <a href="index.html">
-                    <img src="Photos/rpi_dbf.png" alt="RPI DBF Logo">
+                    <img src="Photos/rpi_dbf.png" alt="RPI DBF Logo" loading="lazy">
                 </a>
             </div>
             <div class="footer-col footer-social">
                 <div class="social-links">
-                    <a href="https://www.instagram.com/rpidbf/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/rpidbf/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://discord.gg/p33m8uF" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
-                    <a href="https://www.facebook.com/rpidbf" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.youtube.com/@RPIDBF" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/rpidbf/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rpidbf/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://discord.gg/p33m8uF" target="_blank" rel="noopener" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.facebook.com/rpidbf" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@RPIDBF" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="footer-col footer-contact">
