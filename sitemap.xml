@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rprubik.github.io/RPI_DBF/</loc>
+    <loc>https://rpidbf.com/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rprubik.github.io/RPI_DBF/join.html</loc>
+    <loc>https://rpidbf.com/join.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rprubik.github.io/RPI_DBF/subteams.html</loc>
+    <loc>https://rpidbf.com/subteams.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rprubik.github.io/RPI_DBF/history.html</loc>
+    <loc>https://rpidbf.com/history.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rprubik.github.io/RPI_DBF/reports.html</loc>
+    <loc>https://rpidbf.com/reports.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rprubik.github.io/RPI_DBF/alumni.html</loc>
+    <loc>https://rpidbf.com/alumni.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rprubik.github.io/RPI_DBF/sponsors.html</loc>
+    <loc>https://rpidbf.com/sponsors.html</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
